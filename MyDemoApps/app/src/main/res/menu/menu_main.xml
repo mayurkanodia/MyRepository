@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".frgmnt.MainActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:title="@string/action_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/cart"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:icon="@drawable/arw"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/my_action"
+        android:title="my_action"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_setting_light"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/my_action2"
+        android:title="my_action2"
+        android:orderInCategory="100"
+        android:icon="@drawable/messenger_bubble_small_blue"
+        app:showAsAction="ifRoom|collapseActionView" />
+
+
+</menu>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="facebook_app_id">496381107189959</string>
+    <string name="map">MAP</string>
+    <string name="camera">CAMERA</string>
+    <string name="list">LIST</string>
+    <string name="facebook">FACEBOOK</string>
+    <string name="tab">Tab Fragment</string>
+    <string name="tab_activity">Tab Activity</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/map</item>
+        <item>@string/camera</item>
+        <item>@string/list</item>
+        <item>@string/facebook</item>
+        <item>@string/tab</item>
+        <item>@string/tab_activity</item>
+
+
+    </string-array>
+
+    <string name="header_title">Header</string>
+
+</resources>

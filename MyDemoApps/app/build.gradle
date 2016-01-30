@@ -1,0 +1,48 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'tvandroid'
+            keyPassword 'tvandroid123'
+           // /home/android/Desktop/MayurWS/MyDemoApps/app/build.gradle
+            storeFile file('/home/android/Desktop/MayurWS/MyDemoApps/techvalens.keystore')
+            storePassword 'tvandroid123'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+    defaultConfig {
+        applicationId "com.mydemoapps"
+        minSdkVersion 15
+        targetSdkVersion 22
+        signingConfig signingConfigs.config
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.config
+            debuggable true
+            jniDebuggable true
+            renderscriptDebuggable true
+            zipAlignEnabled true
+        }
+        debug {
+            debuggable true
+            signingConfig signingConfigs.config
+            jniDebuggable true
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':simplecropimagelib')
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:recyclerview-v7:23.1.1'
+    compile 'com.google.android.gms:play-services:8.1.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.7.0'
+}

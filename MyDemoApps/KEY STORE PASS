@@ -1,0 +1,47 @@
+TECHVALENS KEYSTORE
+
+
+Alias: tvandroid
+
+Password: tvandroid123
+
+
+SHA1 Fingerprint 
+45:9A:54:2E:64:EF:E6:A7:35:30:68:A6:11:2B:25:0B:52:9B:8B:83
+
+
+MD5 Fingerprint
+19:C7:70:11:46:3F:1D:4A:DD:EF:5A:EA:5A:87:0A:11
+
+
+////////////////////////////////////////////////
+C:\Program Files\Java\jdk1.8.0_65\bin>keytool -list -v -keystore G:\studioWS\DataBaseDemo\techvalens.keystore -alias tvandroid -storepass tvandroid123 -keypass tvandroid123
+Alias name: tvandroid
+Creation date: 20 Jul, 2015
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: L=Indore, ST=Madhya Pradesh, C=91
+Issuer: L=Indore, ST=Madhya Pradesh, C=91
+Serial number: 4bc9f84b
+Valid from: Mon Jul 20 12:07:53 IST 2015 until: Fri Jul 13 12:07:53 IST 2040
+Certificate fingerprints:
+         MD5:  19:C7:70:11:46:3F:1D:4A:DD:EF:5A:EA:5A:87:0A:11
+         SHA1: 45:9A:54:2E:64:EF:E6:A7:35:30:68:A6:11:2B:25:0B:52:9B:8B:83
+         SHA256: 0A:A2:F1:2A:F1:BF:BE:AE:4E:CE:5B:93:15:74:BA:74:7E:CB:9D:B1:31:
+65:64:95:3D:7F:C5:1C:9D:2E:9F:88
+         Signature algorithm name: SHA256withRSA
+         Version: 3
+////////////////////////////////////////////////////////// KEY HAS 
+C:\Program Files\Java\jdk1.8.0_65\bin>keytool -exportcert -alias tvandroid -keys
+tore G:\studioWS\DataBaseDemo\techvalens.keystore | D:\openssl-0.9.8k_X64\bin\op
+enssl.exe sha1 -binary | D:\openssl-0.9.8k_X64\bin\openssl.exe base64
+Enter keystore password:  tvandroid123
++UJIJQHfx1R6FbbwWMZ3gUgoYdM=
+/////////////////////////////////
+fb My Apps
+
+my_appi 
+App ID: 496381107189959
+androiddevloper8@gmail.com
+tvandroid123

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/container_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/container_toolbar"
+        android:text="Billing Details"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="@color/textColor"/>
+    <RelativeLayout
+        android:layout_below="@+id/image"
+        android:id="@+id/details_layout"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:background="@drawable/billing_input_fild"
+            android:hint="First Name"/>
+        <EditText android:id="@+id/last_name"
+            android:layout_below="@+id/first_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/billing_input_fild"
+            android:hint="Last Name"/>
+        <EditText android:id="@+id/email"
+            android:layout_below="@+id/last_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/billing_input_fild"
+            android:hint="Email"/>
+        <EditText android:id="@+id/password"
+            android:layout_below="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/billing_input_fild"
+            android:hint="Password"/>
+
+        <EditText android:id="@+id/c_password"
+            android:layout_below="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:background="@drawable/billing_input_fild"
+            android:hint="Confirm Password"/>
+
+
+
+        <EditText android:id="@+id/gener"
+            android:layout_below="@+id/c_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/billing_input_fild"
+            android:hint="Gender"/>
+        <EditText android:id="@+id/country"
+            android:layout_below="@+id/gener"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/billing_input_fild"
+            android:hint="Country"/>
+
+    </RelativeLayout>
+
+
+    <Button android:id="@+id/sign_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/last_button"
+        android:gravity="center"
+        android:text="SIGN UP"
+        android:textColor="@android:color/white"
+        android:layout_below="@+id/details_layout"/>
+
+</RelativeLayout>
