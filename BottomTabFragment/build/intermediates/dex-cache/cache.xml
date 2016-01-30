@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/android/Desktop/MayurWS/BottomTabFragment/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/android/Desktop/MayurWS/BottomTabFragment/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-21.0.3_373851bf2cb7b411d388914e5ba26fff0ca63d67.jar" />
+    </item>
+    <item
+        jar="/home/android/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/android/Desktop/MayurWS/BottomTabFragment/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3_47db3eccf4ad29a276010e18243b569564537406.jar" />
+    </item>
+    <item
+        jar="/home/android/Desktop/MayurWS/BottomTabFragment/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/android/Desktop/MayurWS/BottomTabFragment/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3_966b79e1e914d18a888d02690570466314c6abd0.jar" />
+    </item>
+    <item
+        jar="/home/android/Desktop/MayurWS/BottomTabFragment/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/android/Desktop/MayurWS/BottomTabFragment/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-21.0.3_08e0a31fd6893d8439cd25b68d91df45ba182128.jar" />
+    </item>
+
+</items>
